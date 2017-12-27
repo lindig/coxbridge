@@ -1,0 +1,7 @@
+
+<section>
+  <header>
+    {{ with .Site.Params.results.title }}<h2>{{ . | markdownify }}</h2>{{ end }}
+  </header>
+  {{ with .Site.Params.results.content }}<p>{{ . | markdownify }}</p>{{ end }}
+</section>

@@ -1,3 +1,0 @@
-[submodule "themes/strata"]
-	path = themes/strata
-	url = git@github.com:lindig/hugo-strata-theme.git

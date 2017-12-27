@@ -1,0 +1,25 @@
+{{ define "main" }}
+  {{ if not .Site.Params.about.hide }}
+    {{ partial "about" . }}
+  {{ end }}
+
+  {{ if not .Site.Params.portfolio.hide }}
+    {{ partial "portfolio" . }}
+  {{ end }}
+
+  {{ if not .Site.Params.recentposts.hide }}
+    {{ partial "recent-posts" . }}
+  {{ end }}
+
+  {{ if not .Site.Params.results.hide }}
+    {{ partial "results" . }}
+  {{ end }}
+
+  {{ if not .Site.Params.licenses.hide }}
+    {{ partial "licenses" . }}
+  {{ end }}
+
+  {{ if not .Site.Params.contact.hide }}
+    {{ partial "contact" . }}
+  {{ end }}
+{{ end }}
