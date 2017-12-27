@@ -28,7 +28,7 @@ paginate = 10
 
   [params.sidebar]
     # Replace the avatar with a picture of your own under static/images
-    avatar = "avatar.jpg"
+    avatar = "thumbs/coxbridge-01.jpg"
     # Use Markdown to format the string. This works nearly all over the
     # theme
     bio = '''I am Silvia Breu, the founder of **Coxbridge**, a team of rowing coaches in Cambridge. Together we make crews row faster.'''
@@ -66,40 +66,41 @@ paginate = 10
     # The images and thumbnails are stored under static/images
     # Create and change subfolders as you like
     [[params.portfolio.gallery]]
-      image = "fulls/01.jpg"
-      thumb = "thumbs/01.jpg"
-      title = "Lorem ipsum dolor."
-      description = "Lorem ipsum dolor sit amet."
+      image = "fulls/coxbridge-02.jpg"
+      thumb = "thumbs/coxbridge-02.jpg"
+      title = "Coaching on the towpath"
+      description = "Coaching on the towpath"
 
     [[params.portfolio.gallery]]
-      image = "fulls/02.jpg"
-      thumb = "thumbs/02.jpg"
-      title = "Lorem ipsum dolor."
-      description = "Lorem ipsum dolor sit amet."
+      image = "fulls/coxbridge-03.jpg"
+      thumb = "thumbs/coxbridge-03.jpg"
+      title = "Working with ARU M1 during May Bumps"
+      description =  "Working with ARU M1 during May Bumps"
 
     [[params.portfolio.gallery]]
-      image = "fulls/03.jpg"
-      thumb = "thumbs/03.jpg"
-      title = "Lorem ipsum dolor."
-      description = "Lorem ipsum dolor sit amet."
+      image = "fulls/coxbridge-04.jpg"
+      thumb = "thumbs/coxbridge-04.jpg"
+      title = "Bumped!"
+      description = "Bumped!"
 
     [[params.portfolio.gallery]]
-      image = "fulls/04.jpg"
-      thumb = "thumbs/04.jpg"
-      title = "Lorem ipsum dolor."
-      description = "Lorem ipsum dolor sit amet."
+      image = "fulls/coxbridge-06.jpg"
+      thumb = "thumbs/coxbridge-06.jpg"
+      title = "Churchill College Boat Club M1"
+      description =  "Churchill College Boat Club M1"
 
     [[params.portfolio.gallery]]
-      image = "fulls/05.jpg"
-      thumb = "thumbs/05.jpg"
-      title = "Lorem ipsum dolor."
-      description = "Lorem ipsum dolor sit amet."
+      image = "fulls/coxbridge-10.jpg"
+      thumb = "thumbs/coxbridge-10.jpg"
+      title = "Churchill College Boat Club"
+      description = "Churchill College Boat Club"
 
     [[params.portfolio.gallery]]
-      image = "fulls/06.jpg"
-      thumb = "thumbs/06.jpg"
-      title = "Lorem ipsum dolor."
-      description = "Lorem ipsum dolor sit amet."
+      image = "fulls/coxbridge-09.jpg"
+      thumb = "thumbs/coxbridge-09.jpg"
+      title = "Blade"
+      description = "Blade"
+
 
   [params.recentposts]
     hide  = true
