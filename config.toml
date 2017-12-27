@@ -1,0 +1,183 @@
+baseurl = "https://coxbridge.net/"
+languageCode = "en-us"
+title = "Team Coxbridge"
+theme = "strata"
+disqusShortname = ""
+# Enable Google Analytics by inserting your tracking code
+googleAnalytics = ""
+# Define how many posts should appear on a site
+paginate = 10
+
+[params]
+  # To provide some metadata for search engines feel free to add a few
+  # information about you and your website.
+  name = "Coxbridge"
+  description = '''Rowing coach in Cambridge, UK. Working with clubs and
+  individual rowers.'''
+
+  # Format dates with Go's time formatting
+  date_format = "2006-01-02"
+
+  # Add read time estimates in the format "X min read"
+  show_read_time = false
+
+  # Add custom assets with their paths relative to the static folder
+  custom_js   = []
+  custom_css  = []
+
+
+  [params.sidebar]
+    # Replace the avatar with a picture of your own under static/images
+    avatar = "avatar.jpg"
+    # Use Markdown to format the string. This works nearly all over the
+    # theme
+    bio = '''I am Silvia Breu, the founder of **Coxbridge**, a team of rowing coaches in Cambridge. Together we make crews row faster.'''
+
+    # The icons will be shown if you enter your username
+    twitter     =  "coxbridge"
+    github      =  ""
+    gitlab      =  ""
+    dribbble    =  ""
+    facebook    =  ""
+    googleplus  =  ""
+    flickr      =  ""
+    linkedin    =  ""
+    copyright = [
+      "&copy; 2018, Silvia Breu",
+      "Design: [HTML5 UP](//html5up.net)"
+    ]
+
+
+  [params.about]
+    hide  = false
+    title = "Rowing Coaching"
+    content = '''Team Coxbridge helps individuals and crews to reach
+    their goals and beyond in rowing. We work with college and town
+    clubs, as well as individual rowers. This includes land and water
+    training, technical and performance training, for a season or for
+    finisihing touches before a race. We are based in Cambridge but 
+    have run training camps as far aways as in China.
+    '''
+
+  [params.portfolio]
+    hide  = false
+    title = "Rowing and Coaching Impressions"
+
+    # The images and thumbnails are stored under static/images
+    # Create and change subfolders as you like
+    [[params.portfolio.gallery]]
+      image = "fulls/01.jpg"
+      thumb = "thumbs/01.jpg"
+      title = "Lorem ipsum dolor."
+      description = "Lorem ipsum dolor sit amet."
+
+    [[params.portfolio.gallery]]
+      image = "fulls/02.jpg"
+      thumb = "thumbs/02.jpg"
+      title = "Lorem ipsum dolor."
+      description = "Lorem ipsum dolor sit amet."
+
+    [[params.portfolio.gallery]]
+      image = "fulls/03.jpg"
+      thumb = "thumbs/03.jpg"
+      title = "Lorem ipsum dolor."
+      description = "Lorem ipsum dolor sit amet."
+
+    [[params.portfolio.gallery]]
+      image = "fulls/04.jpg"
+      thumb = "thumbs/04.jpg"
+      title = "Lorem ipsum dolor."
+      description = "Lorem ipsum dolor sit amet."
+
+    [[params.portfolio.gallery]]
+      image = "fulls/05.jpg"
+      thumb = "thumbs/05.jpg"
+      title = "Lorem ipsum dolor."
+      description = "Lorem ipsum dolor sit amet."
+
+    [[params.portfolio.gallery]]
+      image = "fulls/06.jpg"
+      thumb = "thumbs/06.jpg"
+      title = "Lorem ipsum dolor."
+      description = "Lorem ipsum dolor sit amet."
+
+  [params.recentposts]
+    hide  = true
+    title = "Recent News"
+
+
+  [params.results]
+    hide = false
+    title = "Selected Results and Activities"
+    content = '''
+
+* Anglia Ruskin Boat Club, W1 8+ won blades at Cambridge May Bumps 20xx
+* Cambridge University Lightweight Rowing Club (Assistant Coach);
+  Winner of the Boat Race against Oxford OULRC in 2013 and 2014
+* Churchill College Boat Club: M1 won blades at May Bumps 2014 in
+  category 1
+* Heach Coach of Deep Dive Junior Rowing Programe in China, 2015
+* Churchill College Boat Club: One-week Training camp at Molsey for M1,
+  M2, W1
+'''
+
+  [params.licenses]
+    hide = false
+    title = "Licenses and Memberships"
+    content = '''
+* British Rowing Level 2 Coaching License 
+* Member of [British Rowing](http://britishrowing.org)
+* Launch Driving  
+* Radio License
+* Driving License B, B+E, C1 
+'''
+
+
+  [params.contact]
+    hide  = false
+    title = "Get In Touch"
+    content = '''Accumsan pellentesque commodo blandit enim arcu non at
+    amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc
+    nisi lorem vulputate lorem neque lorem ipsum dolor.'''
+
+    # This can be exact coordinates or a searchable address in google maps
+    gmaps_address = "52.211373, 0.139495"
+    address = [
+      "Cambridge",
+      "UK"
+    ]
+    # phone = "000-000-0000"
+
+    # Since this template is static, the contact form uses
+    # www.formspree.io as a proxy. The form makes a POST request to
+    # their servers to send the actual email. Visitors can send up to a
+    # 1000 emails each month for free.
+     
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below - upload the
+    # generated site to your server - send a dummy email yourself to
+    # confirm your account - click the confirm link in the email from
+    # www.formspree.io - you're done. Happy mailing!
+
+    email = "silvia@coxbride.net"
+
+    [params.contact.form]
+      # Set custom strings for the form if your native
+      # language isn't English
+      name = "Your Name"
+      email = "Your Email Address"
+      message = "Message for Silvia"
+      submit = "Send Message"
+
+
+# Menu links that appear on the left sidebar
+[[menu.main]]
+  name = "Home"
+  url  = "/"
+  weight = 10
+
+# [[menu.main]]
+#  name = "News"
+#  url  = "post/"
+#  weight = 0
