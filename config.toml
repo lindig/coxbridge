@@ -177,7 +177,7 @@ paginate = 10
 # Menu links that appear on the left sidebar
 [[menu.main]]
   name = "Home"
-  url  = "/"
+  url  = "/index.html"
   weight = 10
 
 # [[menu.main]]
