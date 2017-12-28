@@ -101,6 +101,19 @@ paginate = 10
       title = "Blade CUWBC vs. OUWBC"
       description = "Blade"
 
+    [[params.portfolio.gallery]]
+      image = "fulls/coxbridge-08.jpg"
+      thumb = "thumbs/coxbridge-08.jpg"
+      title = "X-Press Boat Club"
+      description = "X-Press Boat Club"
+
+    [[params.portfolio.gallery]]
+      image = "fulls/coxbridge-05.jpg"
+      thumb = "thumbs/coxbridge-05.jpg"
+      title = "Sidney Sussex W1 during May Bumps"
+      description = "Sidney Sussex W1"
+
+
 
   [params.recentposts]
     hide  = true
