@@ -1,4 +1,4 @@
-baseurl = "http://www.coxbridge.net/"
+baseurl = "https://www.coxbridge.net/"
 languageCode = "en-us"
 title = "Team Coxbridge"
 theme = "strata"
