@@ -6,6 +6,9 @@
 all: 
 	hugo
 
+server:
+	hugo server -D -b http://localhost/
+
 clean:
 	rm -rf public
 
