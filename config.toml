@@ -31,7 +31,7 @@ paginate = 10
     avatar = "thumbs/coxbridge-01.jpg"
     # Use Markdown to format the string. This works nearly all over the
     # theme
-    bio = '''I am Silvia Breu, founder of **Coxbridge**, a team of rowing coaches in Cambridge. Together we make crews row faster.'''
+    bio = '''I am Silvia Breu of **Team Coxbridge**, a team of rowing coaches in Cambridge. Together we make crews row faster.'''
 
     # The icons will be shown if you enter your username
     twitter     =  "coxbridge"
@@ -50,7 +50,7 @@ paginate = 10
 
   [params.about]
     hide  = false
-    title = "Rowing Coaches"
+    title = "Rowing Coach"
     content = '''Team Coxbridge helps individuals and crews to reach
     their goals, and beyond, in rowing. We work with college and town
     clubs, as well as individual rowers. This includes land and water
@@ -98,7 +98,7 @@ paginate = 10
     [[params.portfolio.gallery]]
       image = "fulls/coxbridge-09.jpg"
       thumb = "thumbs/coxbridge-09.jpg"
-      title = "Blade"
+      title = "Blade CULRC vs. OULRC"
       description = "Blade"
 
 
@@ -112,14 +112,19 @@ paginate = 10
     title = "Selected Results and Activities"
     content = '''
 
-* Anglia Ruskin Boat Club, W1 8+ won blades at Cambridge May Bumps 2013
-* Cambridge University Lightweight Rowing Club (Assistant Coach);
+* [Anglia Ruskin Boat Club] W1 8+ won blades at Cambridge May Bumps 2013
+* [Cambridge University Lightweight Rowing Club] (Assistant Coach):
   Winner of the Boat Race against Oxford OULRC in 2013 and 2014
-* Churchill College Boat Club: M1 won blades at May Bumps 2014 in
+* [Churchill College Boat Club]: M1 won blades at May Bumps 2014 in
   Devision 1.
 * Heach Coach of Deep Dive Junior Rowing Programe in China, 2015
-* Churchill College Boat Club: One-week training camp at Molsey for M1,
-  M2, and W1.
+* [Churchill College Boat Club]: One-week training camp at 
+  [Molesey Boat Club] for M1, M2, and W1.
+
+[Cambridge University Lightweight Rowing Club]: http://www.culrc.org.uk
+[Churchill College Boat Club]: http://www.churchillboatclub.org.uk
+[Anglia Ruskin Boat Club]: https://www.anglia.ac.uk/sport/sports/rowing
+[Molesey Boat Club]: https://www.moleseyboatclub.co.uk
 '''
 
   [params.licenses]
