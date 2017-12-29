@@ -181,7 +181,7 @@ paginate = 10
     # confirm your account - click the confirm link in the email from
     # www.formspree.io - you're done. Happy mailing!
 
-    email = "silvia@coxbride.net"
+    email = "silvia@coxbridge.net"
 
     [params.contact.form]
       # Set custom strings for the form if your native
