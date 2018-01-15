@@ -66,8 +66,8 @@ paginate = 10
     # The images and thumbnails are stored under static/images
     # Create and change subfolders as you like
     [[params.portfolio.gallery]]
-      image = "fulls/coxbridge-02.jpg"
-      thumb = "thumbs/coxbridge-02.jpg"
+      image = "fulls/coach-201.jpg"
+      thumb = "thumbs/coach-thumb-201.jpg"
       title = "Coaching on the towpath"
       description = "Coaching on the towpath"
 
