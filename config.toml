@@ -125,19 +125,27 @@ paginate = 10
     title = "Selected Results and Activities"
     content = '''
 
-* [Anglia Ruskin Boat Club] W1 8+ won blades at Cambridge May Bumps 2013
-* [Cambridge University Lightweight Rowing Club] (Assistant Coach):
-  Winner of the Boat Race against Oxford OULRC in 2013 and 2014
-* [Churchill College Boat Club]: M1 won blades at May Bumps 2014 in
-  Devision 1.
-* Heach Coach of Deep Dive Junior Rowing Programe in China, 2015
-* [Churchill College Boat Club]: One-week training camp at 
+* [Wolfson College Boat Club] M1 won blades at May Bumps 2016, W1 won
+  blades at Lent Bumps 2017 and May Bumps 2017.
+* [Sidney Sussex Boat Club] M1 won blades at May Bumps 2017 (hadn't
+  happened in 22 years).
+* [Churchill College Boat Club] M1
+  won super blades in Lent Bumps 2015 and blades in Lent Bumps 2016 in
+  Division 1.
+* [Churchill College Boat Club]: One-week training camp at
   [Molesey Boat Club] for M1, M2, and W1.
+* Heach Coach of Deep Dive Junior Rowing Programe in China, 2015.
+* [Cambridge University Lightweight Rowing Club] (Assistant Coach):
+  Winner of the Boat Race against Oxford OULRC in 2014 and 2015.
+* [Anglia Ruskin Boat Club] W1 won blades at Cambridge May Bumps
+  2014.
 
 [Cambridge University Lightweight Rowing Club]: http://www.culrc.org.uk
 [Churchill College Boat Club]: http://www.churchillboatclub.org.uk
 [Anglia Ruskin Boat Club]: https://www.anglia.ac.uk/sport/sports/rowing
 [Molesey Boat Club]: https://www.moleseyboatclub.co.uk
+[Wolfson College Boat Club]: https://www.wolfson.cam.ac.uk/boatclub
+[Sidney Sussex Boat Club]: http://ssbc.org.uk
 '''
 
   [params.licenses]
