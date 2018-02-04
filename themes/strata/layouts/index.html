@@ -11,16 +11,16 @@
     {{ partial "recent-posts" . }}
   {{ end }}
 
-  {{ if not .Site.Params.twitter.hide }}
-    {{ partial "twitter" . }}
-  {{ end }}
-
   {{ if not .Site.Params.results.hide }}
     {{ partial "results" . }}
   {{ end }}
 
   {{ if not .Site.Params.licenses.hide }}
     {{ partial "licenses" . }}
+  {{ end }}
+
+  {{ if not .Site.Params.twitter.hide }}
+    {{ partial "twitter" . }}
   {{ end }}
 
   {{ if not .Site.Params.contact.hide }}
