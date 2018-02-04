@@ -119,6 +119,9 @@ paginate = 10
     hide  = true
     title = "Recent News"
 
+  [params.twitter]
+    hide  = false
+    account = "coxbridge"
 
   [params.results]
     hide = false

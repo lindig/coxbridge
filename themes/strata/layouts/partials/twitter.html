@@ -1,0 +1,16 @@
+{{ with .Site.Params.twitter.account }}
+<a class="twitter-timeline"
+    href="https://twitter.com/{{ . }}"
+    data-tweet-limit="1"
+    data-dnt="true"
+    data-chrome="nofooter,transparent"
+    data-height="200">
+  Tweets by @{{ . }}</a>
+<script
+  async
+  src="https://platform.twitter.com/widgets.js"
+  charset="utf-8">
+</script>
+{{ end }}
+
+
