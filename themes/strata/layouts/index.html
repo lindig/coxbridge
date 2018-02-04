@@ -11,6 +11,19 @@
     {{ partial "recent-posts" . }}
   {{ end }}
 
+  <a class="twitter-timeline"
+      href="https://twitter.com/coxbridge"
+      data-tweet-limit="2"
+      data-dnt="true"
+      data-chrome="nofooter,transparent"
+      data-height="200">
+      Tweets by @coxbridge</a>
+  <script
+    async
+    src="https://platform.twitter.com/widgets.js"
+    charset="utf-8">
+  </script>
+
   {{ if not .Site.Params.results.hide }}
     {{ partial "results" . }}
   {{ end }}
